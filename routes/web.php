@@ -13,6 +13,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
+Route::get('alive.b401telematics.com', function () {
     return view('welcome');
 });
