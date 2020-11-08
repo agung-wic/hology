@@ -1,5 +1,23 @@
 @extends('master.dashboard')
 
+<?php
+$data1 = '';
+$data2 = '';
+
+//query to get data from the table
+$sql = "SELECT * FROM `datasets` ";
+$result = mysqli_query($mysqli, $sql);
+
+//loop through the returned data
+while ($row = mysqli_fetch_array($result)) {
+
+    $data1 = $data1 . '"' . $row['data1'] . '",';
+    $data2 = $data2 . '"' . $row['data2'] . '",';
+}
+
+$data1 = trim($data1, ",");
+$data2 = trim($data2, ",");
+?>
 
 @section('sidebar')
 <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
@@ -147,16 +165,16 @@
 </div>
 
 <script>
-    var label = [1, 2, 3, 4, 5];
-    // var j = 0;
-    // for (let i = 0; i <= 720; i++) {
-    //     if (i % 360 == 0) {
-    //         label[i] = j;
-    //         j++;
-    //     } else {
-    //         label[i] = "";
-    //     }
-    // }
+    var label = [];
+    var j = 0;
+    for (let i = 0; i <= 720; i++) {
+        if (i % 360 == 0) {
+            label[i] = j;
+            j++;
+        } else {
+            label[i] = "";
+        }
+    }
     var ctx = document.getElementById("chart").getContext('2d');
     var myChart = new Chart(ctx, {
         type: 'line',
