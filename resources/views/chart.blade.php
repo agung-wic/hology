@@ -160,56 +160,57 @@
     }
     var ctx = document.getElementById("chart").getContext('2d');
     var myChart = new Chart(ctx, {
-        type: 'line',
-        data: {
-            labels: label,
-            datasets: [{
-                    label: 'Data 1 - Normal',
-                    // data: {
-                    //     !!$data1!!
-                    // },
-                    data: [1, 2, 3, 4, 5],
-                    backgroundColor: 'transparent',
-                    borderColor: 'rgba(255,255,255)',
-                    borderWidth: 1,
-                    pointRadius: 0
-                },
-                {
-                    label: 'Data 2 - Arrhythmia',
-                    // data: json_encode($data2),
-                    data: [1, 2, 3, 4, 5],
-                    backgroundColor: 'transparent',
-                    borderColor: 'rgba(255,0,0)',
-                    borderWidth: 1,
-                    pointRadius: 0
-                }
-            ]
-        },
+                type: 'line',
+                data: {
+                    labels: label,
+                    datasets: [{
+                            label: 'Data 1 - Normal',
+                            data: {
+                                {
+                                    json_encode($data1)
+                                },
+                                // data: [1, 2, 3, 4, 5],
+                                backgroundColor: 'transparent',
+                                borderColor: 'rgba(255,255,255)',
+                                borderWidth: 1,
+                                pointRadius: 0
+                            },
+                            {
+                                label: 'Data 2 - Arrhythmia',
+                                // data: json_encode($data2),
+                                data: [1, 2, 3, 4, 5],
+                                backgroundColor: 'transparent',
+                                borderColor: 'rgba(255,0,0)',
+                                borderWidth: 1,
+                                pointRadius: 0
+                            }
+                        ]
+                    },
 
-        options: {
-            scales: {
-                scales: {
-                    yAxes: [{
-                        beginAtZero: false
-                    }],
-                    xAxes: [{
-                        autoskip: true,
-                        maxTicketsLimit: 20
-                    }]
-                }
-            },
-            tooltips: {
-                mode: 'index'
-            },
-            legend: {
-                display: true,
-                position: 'bottom',
-                labels: {
-                    fontColor: 'rgb(255,255,255)',
-                    fontSize: 16
-                }
-            }
-        }
-    });
+                    options: {
+                        scales: {
+                            scales: {
+                                yAxes: [{
+                                    beginAtZero: false
+                                }],
+                                xAxes: [{
+                                    autoskip: true,
+                                    maxTicketsLimit: 20
+                                }]
+                            }
+                        },
+                        tooltips: {
+                            mode: 'index'
+                        },
+                        legend: {
+                            display: true,
+                            position: 'bottom',
+                            labels: {
+                                fontColor: 'rgb(255,255,255)',
+                                fontSize: 16
+                            }
+                        }
+                    }
+                });
 </script>
 @endsection
