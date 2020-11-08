@@ -28,7 +28,7 @@
     <hr class="sidebar-divider my-2">
 
     <div class="sidebar-heading">
-        Pasien
+        Dokter
     </div>
 
     <li class="nav-item active">
