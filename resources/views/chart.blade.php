@@ -158,7 +158,7 @@
             label[i] = "";
         }
     }
-    var data1 = JSON.parse("{{json_encode($data1)}}");
+    var data1 = <?php echo json_encode($data1);?>;
     var ctx = document.getElementById("chart").getContext('2d');
     var myChart = new Chart(ctx, {
         type: 'line',
