@@ -51,9 +51,9 @@
                     <div class="row no-gutters align-items-center">
                         <div class="col mr-2">
                             <div class="text-xl font-weight-bold text-primary text-uppercase mb-1">
-                                Nama: Ahmad Syiham Akbar</div>
+                                Nama: Pasien 1</div>
                             <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">
-                                Nomer Seri :07211740000039</div>
+                                Nomer Seri : 07211740000039</div>
                         </div>
                     </div>
                 </div>
@@ -66,9 +66,9 @@
                     <div class="row no-gutters align-items-center">
                         <div class="col mr-2">
                             <div class="text-xl font-weight-bold text-primary text-uppercase mb-1">
-                                Nama: Ahmad Zakiy</div>
+                                Nama: Pasien 2</div>
                             <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">
-                                Nomer Seri :07211740000040</div>
+                                Nomer Seri : 07211740000040</div>
                         </div>
                     </div>
                 </div>
@@ -81,9 +81,9 @@
                     <div class="row no-gutters align-items-center">
                         <div class="col mr-2">
                             <div class="text-xl font-weight-bold text-primary text-uppercase mb-1">
-                                Nama: Agung Wicaksono</div>
+                                Nama: Pasien 3</div>
                             <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">
-                                Nomer Seri :07211740000002</div>
+                                Nomer Seri : 07211740000002</div>
                         </div>
                     </div>
                 </div>
@@ -96,9 +96,9 @@
                     <div class="row no-gutters align-items-center">
                         <div class="col mr-2">
                             <div class="text-xl font-weight-bold text-primary text-uppercase mb-1">
-                                Nama: Mpu Hambyah</div>
+                                Nama: Pasien 4</div>
                             <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">
-                                Nomer Seri :07211740000024</div>
+                                Nomer Seri : 07211740000024</div>
                         </div>
                     </div>
                 </div>

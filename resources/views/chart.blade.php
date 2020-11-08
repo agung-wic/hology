@@ -35,16 +35,128 @@
 @endsection('sidebar')
 
 @section('content')
-<div class="card shadow mb-4">
-    <div class="card-header py-3">
-        <h6 class="m-0 font-weight-bold text-primary">Area Chart</h6>
+<div class="container-fluid">
+
+    <!-- Page Heading -->
+    <div class="d-sm-flex align-items-center justify-content-between mb-4">
+        <h1 class="h3 mb-0 text-gray-800">Ahmad Zakiy</h1>
     </div>
-    <div class="card-body">
-        <div class="chart-area">
-            <canvas id="myAreaChart"></canvas>
+    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#unduhModal">Unduh
+        Laporan</button>
+    <button type=" button" class="btn btn-warning" data-toggle="modal" data-target="#unggahModal">Unggah
+        Laporan </button>
+
+    <div class=" d-sm-flex align-items-center justify-content-center mt-4">
+        <h1 class="h1 mb-0 text-gray-800">ECG Report</h1>
+    </div>
+
+    <div class="text-l font-weight-bold text-dark mb-1">
+        Nama: Ahmad Zakiy</div>
+    <div class="text-l font-weight-bold text-dark mb-1">
+        Umur: 21 Tahun</div>
+    <div class="text-l font-weight-bold text-dark mb-1">
+        Golongan Darah: A</div>
+    <div class="text-l font-weight-bold text-dark mb-1">
+        Alamat: Semolo Klampis timur</div>
+
+
+
+    <!-- Content Row -->
+    <div class="row">
+
+
+
+        <!-- Content Column -->
+        <div class="col-lg-6 mb-4">
+
+            <div class="col-lg-6 mb-4">
+
+
+            </div>
+            <!-- End of Main Content -->
+
         </div>
-        <hr>
-        Styling for the area chart can be found in the <code>/js/demo/chart-area-demo.js</code> file.
+        <!-- End of Content Wrapper -->
+
+    </div>
+    <!-- End of Page Wrapper -->
+
+    <!-- Scroll to Top Button-->
+    <a class="scroll-to-top rounded" href="#page-top">
+        <i class="fas fa-angle-up"></i>
+    </a>
+
+    <!-- Logout Modal-->
+    <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Ready to Leave?</h5>
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">×</span>
+                    </button>
+                </div>
+                <div class="modal-body">Select "Logout" below if you are ready to end your current
+                    session.
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
+                    <a class="btn btn-primary" href="login.html">Logout</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Unduh Modal-->
+    <div class="modal fade" id="unduhModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Unduh Laporan Kesehatan</h5>
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">×</span>
+                    </button>
+                </div>
+                <div class="modal-body">Tekan tombol Unduh untuk Mengunduh Laporan Kesehatan dari
+                    Pasien.
+                </div>
+                <div class="modal-footer">
+                    <a class="btn btn-primary" href="login.html">Unduh</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Unggah Modal-->
+    <div class="modal fade" id="unggahModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Unggah Laporan Kesehatan</h5>
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">×</span>
+                    </button>
+                </div>
+
+                <div class="input-group">
+                    <div class="custom-file mx-4">
+                        <input type="file" class="custom-file-input" id="inputGroupFile01" aria-describedby="inputGroupFileAddon01">
+                        <label class="custom-file-label" for="inputGroupFile01">Choose file</label>
+                    </div>
+                </div>
+
+                <div class="custom-control custom-checkbox mx-4">
+                    <input type="checkbox" class="custom-control-input" id="defaultUnchecked">
+                    <label class="custom-control-label" for="defaultUnchecked">Surat atau Laporan
+                        Kesehatan yang saya unggah adalah benar dan merupakan diagnosa yang
+                        sebenar-benarnya</label>
+                </div>
+
+                <div class="modal-footer">
+                    <a class="btn btn-primary" href="login.html">Lanjutkan</a>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
 @endsection
