@@ -12,11 +12,11 @@
     </a>
 
     <!-- Divider -->
-    <hr class="sidebar-divider my-0">
+    <hr class="sidebar-divider my-2">
 
     <!-- Nav Item - Dashboard -->
     <div class="sidebar-heading">
-        Dokter
+        Pasien
     </div>
 
     <li class="nav-item">
@@ -24,6 +24,13 @@
             <i class="fas fa-fw fa-tachometer-alt"></i>
             <span>Dashboard Pasien</span></a>
     </li>
+
+    <hr class="sidebar-divider my-2">
+
+    <div class="sidebar-heading">
+        Pasien
+    </div>
+
     <li class="nav-item">
         <a class="nav-link" href="/dokter">
             <i class="fas fa-fw fa-tachometer-alt"></i>
