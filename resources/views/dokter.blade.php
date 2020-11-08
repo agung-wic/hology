@@ -24,8 +24,11 @@
             <i class="fas fa-fw fa-tachometer-alt"></i>
             <span>Dashboard Dokter</span></a>
     </li>
-
-
+    <li class="nav-item active">
+        <a class="nav-link" href="/chart">
+            <i class="fas fa-fw fa-tachometer-alt"></i>
+            <span>chart</span></a>
+    </li>
 </ul>
 <!-- End of Sidebar -->
 @endsection('sidebar')
