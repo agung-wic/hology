@@ -12,8 +12,8 @@ class ChartController extends Controller
         $data1 = [];
         $data2 = [];
         foreach ($dataset as $data) {
-            $data1 = $data->data1;
-            $data2 = $data->data2;
+            $data1 = $data->data1[$data];
+            $data2 = $data->data2[$data];
         }
         dd(json_encode($data1));
 
