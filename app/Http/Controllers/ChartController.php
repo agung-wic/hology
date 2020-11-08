@@ -12,7 +12,7 @@ class ChartController extends Controller
 
         $data1 = '';
         $data2 = '';
-        while ($row = mysqli_fetch_array($dataset)) {
+        while ($row = count($dataset)) {
             $data1 = $data1 . '"' . $row['data1'] . '",';
             $data2 = $data2 . '"' . $row['data2'] . '",';
         }
