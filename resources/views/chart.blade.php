@@ -165,7 +165,7 @@
             labels: label,
             datasets: [{
                     label: 'Data 1 - Normal',
-                    data: [<?php echo $data1; ?>],
+                    data: $data1,
                     // data: [1, 2, 3, 4, 5],
                     backgroundColor: 'transparent',
                     borderColor: 'rgba(255,255,255)',
@@ -174,8 +174,7 @@
                 },
                 {
                     label: 'Data 2 - Arrhythmia',
-                    data: [<?php echo $data1; ?>],
-                    // data: [1, 2, 3, 4, 5],
+                    data: $data2,
                     backgroundColor: 'transparent',
                     borderColor: 'rgba(255,0,0)',
                     borderWidth: 1,
