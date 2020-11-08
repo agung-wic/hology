@@ -158,6 +158,7 @@
             label[i] = "";
         }
     }
+    var data1 = JSON.parse("{{json_encode($data1)}}");
     var ctx = document.getElementById("chart").getContext('2d');
     var myChart = new Chart(ctx, {
         type: 'line',
@@ -165,7 +166,7 @@
             labels: label,
             datasets: [{
                     label: 'Data 1 - Normal',
-                    data: {json_decode($data1)},
+                    data: data1,
                     // data: [1, 2, 3, 4, 5],
                     backgroundColor: 'transparent',
                     borderColor: 'rgba(255,255,255)',
