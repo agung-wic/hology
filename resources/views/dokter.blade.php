@@ -45,35 +45,18 @@
     </a>
 
     <!-- Divider -->
-    <hr class="sidebar-divider my-2">
 
-    <div class="sidebar-heading">
-        Pasien
-    </div>
-
-    <!-- Nav Item - Dashboard -->
-    <li class="nav-item">
-        <a class="nav-link" href="/pasien">
-            <i class="fas fa-fw fa-tachometer-alt"></i>
-            <span>Dashboard Pasien</span></a>
-
-    </li>
-
-    <hr class="sidebar-divider my-2">
 
     <div class="sidebar-heading">
         Dokter
     </div>
 
+    <hr class="sidebar-divider my-2">
+
     <li class="nav-item active">
         <a class="nav-link" href="/dokter">
             <i class="fas fa-fw fa-tachometer-alt"></i>
             <span>Dashboard Dokter</span></a>
-    </li>
-    <li class="nav-item">
-        <a class="nav-link" href="/chart">
-            <i class="fas fa-fw fa-tachometer-alt"></i>
-            <span>Chart</span></a>
     </li>
 </ul>
 <!-- End of Sidebar -->

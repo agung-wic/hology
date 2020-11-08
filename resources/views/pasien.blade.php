@@ -45,11 +45,12 @@
   </a>
 
   <!-- Divider -->
-  <hr class="sidebar-divider my-2">
 
   <div class="sidebar-heading">
     Pasien
   </div>
+
+  <hr class="sidebar-divider my-2">
 
   <!-- Nav Item - Dashboard -->
   <li class="nav-item active">
