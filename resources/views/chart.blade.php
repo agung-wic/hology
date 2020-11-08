@@ -54,18 +54,14 @@
         Nama: Ahmad Zakiy</div>
     <div class="text-l font-weight-bold text-dark mb-1">
         Umur: 21 Tahun</div>
-    <div class="text-l font-weight-bold text-dark mb-1">
-        Golongan Darah: A</div>
-    <div class="text-l font-weight-bold text-dark mb-1">
-        Alamat: Semolo Klampis timur</div>
 
-
+    <div class="container">
+        <h1>ALIVE</h1>
+        <canvas id="chart" style="width: 100%; height: 65vh; background: #222; border: 1px solid #555652; margin-top: 10px;"></canvas>
+    </div>
 
     <!-- Content Row -->
     <div class="row">
-
-
-
         <!-- Content Column -->
         <div class="col-lg-6 mb-4">
 
@@ -159,4 +155,66 @@
         </div>
     </div>
 </div>
+
+<script>
+    var label = [];
+    var j = 0;
+    for (let i = 0; i <= 720; i++) {
+        if (i % 360 == 0) {
+            label[i] = j;
+            j++;
+        } else {
+            label[i] = "";
+        }
+    }
+    var ctx = document.getElementById("chart").getContext('2d');
+    var myChart = new Chart(ctx, {
+        type: 'line',
+        data: {
+            labels: label,
+            datasets: [{
+                    label: 'Data 1 - Normal',
+                    data: [<?php echo $data1; ?>],
+                    backgroundColor: 'transparent',
+                    borderColor: 'rgba(255,255,255)',
+                    borderWidth: 1,
+                    pointRadius: 0
+                },
+                {
+                    label: 'Data 2 - Arrhythmia',
+                    data: [<?php echo $data2; ?>],
+                    backgroundColor: 'transparent',
+                    borderColor: 'rgba(255,0,0)',
+                    borderWidth: 1,
+                    pointRadius: 0
+                }
+            ]
+        },
+
+        options: {
+            scales: {
+                scales: {
+                    yAxes: [{
+                        beginAtZero: false
+                    }],
+                    xAxes: [{
+                        autoskip: true,
+                        maxTicketsLimit: 20
+                    }]
+                }
+            },
+            tooltips: {
+                mode: 'index'
+            },
+            legend: {
+                display: true,
+                position: 'bottom',
+                labels: {
+                    fontColor: 'rgb(255,255,255)',
+                    fontSize: 16
+                }
+            }
+        }
+    });
+</script>
 @endsection
