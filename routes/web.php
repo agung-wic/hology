@@ -17,6 +17,10 @@ Route::get('/pasien', function () {
     return view('pasien');
 });
 
+Route::get('/dokter', function () {
+    return view('dokter');
+});
+
 Route::get('/welcome', function () {
     return view('welcome');
 });
