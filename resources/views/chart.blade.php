@@ -54,7 +54,7 @@
         Laporan </button>
 
     <div class=" d-sm-flex align-items-center justify-content-center mt-4">
-        <h1 class="h1 mb-0 text-gray-800">@php dd(!!json_encode($data1)!!); @endphp</h1>
+        <h1 class="h1 mb-0 text-gray-800">@php dd(json_encode($data1)); @endphp</h1>
     </div>
 
     <div class="text-l font-weight-bold text-dark mb-1">
