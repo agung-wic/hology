@@ -13,6 +13,18 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
+Route::get('/pasien', function () {
+    return view('pasien');
+});
+
+Route::get('/welcome', function () {
     return view('welcome');
 });
+
+Route::get('/chart', function () {
+    return view('chart');
+});
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
