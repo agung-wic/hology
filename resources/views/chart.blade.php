@@ -39,7 +39,7 @@
 
     <!-- Page Heading -->
     <div class="d-sm-flex align-items-center justify-content-between mb-4">
-        <h1 class="h3 mb-0 text-gray-800">Ahmad Zakiy</h1>
+        <h1 class="h3 mb-0 text-gray-800">Pasien 1</h1>
     </div>
     <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#unduhModal">Unduh
         Laporan</button>
@@ -51,30 +51,13 @@
     </div>
 
     <div class="text-l font-weight-bold text-dark mb-1">
-        Nama: Ahmad Zakiy</div>
+        Nama: Pasien 1</div>
     <div class="text-l font-weight-bold text-dark mb-1">
         Umur: 21 Tahun</div>
 
     <div class="container">
         <canvas id="chart" style="width: 100%; height: 65vh; background: #222; border: 1px solid #555652; margin-top: 10px;"></canvas>
     </div>
-
-    <!-- Content Row -->
-    <div class="row">
-        <!-- Content Column -->
-        <div class="col-lg-6 mb-4">
-
-            <div class="col-lg-6 mb-4">
-
-
-            </div>
-            <!-- End of Main Content -->
-
-        </div>
-        <!-- End of Content Wrapper -->
-
-    </div>
-    <!-- End of Page Wrapper -->
 
     <!-- Scroll to Top Button-->
     <a class="scroll-to-top rounded" href="#page-top">
@@ -173,7 +156,7 @@
             labels: label,
             datasets: [{
                     label: 'Data 1 - Normal',
-                    // data: [<?php echo $data1; ?>],
+
                     data: [1, 2, 3, 4, 5],
                     backgroundColor: 'transparent',
                     borderColor: 'rgba(255,255,255)',
@@ -182,7 +165,7 @@
                 },
                 {
                     label: 'Data 2 - Arrhythmia',
-                    // data: [<?php echo $data2; ?>],
+
                     data: [1, 2, 3, 4, 5],
                     backgroundColor: 'transparent',
                     borderColor: 'rgba(255,0,0)',
