@@ -54,7 +54,7 @@
         Laporan </button>
 
     <div class=" d-sm-flex align-items-center justify-content-center mt-4">
-        <h1 class="h1 mb-0 text-gray-800">ECG Report</h1>
+        <h1 class="h1 mb-0 text-gray-800">@php dd($data1) @endphp</h1>
     </div>
 
     <div class="text-l font-weight-bold text-dark mb-1">
@@ -165,7 +165,7 @@
             labels: label,
             datasets: [{
                     label: 'Data 1 - Normal',
-                    data: [$data1],
+                    data: $data1,
                     // data: [1, 2, 3, 4, 5],
                     backgroundColor: 'transparent',
                     borderColor: 'rgba(255,255,255)',
