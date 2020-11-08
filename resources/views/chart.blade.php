@@ -159,6 +159,7 @@
         }
     }
     var data1 = <?php echo json_encode($data1);?>;
+    var data2 = <?php echo json_encode($data2);?>;_
     var ctx = document.getElementById("chart").getContext('2d');
     var myChart = new Chart(ctx, {
         type: 'line',
@@ -175,7 +176,7 @@
                 },
                 {
                     label: 'Data 2 - Arrhythmia',
-                    data: json_encode($data2),
+                    data: data2,
                     backgroundColor: 'transparent',
                     borderColor: 'rgba(255,0,0)',
                     borderWidth: 1,
