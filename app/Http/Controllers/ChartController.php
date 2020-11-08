@@ -18,6 +18,6 @@ class ChartController extends Controller
             $i++;
         }
 
-        return view('chart', ['dataset' => $dataset], ['data1' => $data1], ['data2' => $data2]);
+        return view('chart', ['data1' => $data1, 'data2' => $data2]);
     }
 }
