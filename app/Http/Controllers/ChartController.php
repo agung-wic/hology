@@ -18,6 +18,7 @@ class ChartController extends Controller
             $i++;
         }
 
+        dd(json_decode($data1));
         return view('chart', ['data1' => $data1, 'data2' => $data2]);
     }
 }

@@ -54,7 +54,7 @@
         Laporan </button>
 
     <div class=" d-sm-flex align-items-center justify-content-center mt-4">
-        <h1 class="h1 mb-0 text-gray-800">EKG Report</h1>
+        <h1 class="h1 mb-0 text-gray-800"> {!! $data1 !!}</h1>
     </div>
 
     <div class="text-l font-weight-bold text-dark mb-1">
@@ -150,8 +150,6 @@
 <script>
     var label = [];
     var j = 0;
-
-
     for (let i = 0; i <= 720; i++) {
         if (i % 360 == 0) {
             label[i] = j;
@@ -167,22 +165,21 @@
             labels: label,
             datasets: [{
                     label: 'Data 1 - Normal',
-                    data: $data1,
+                    data: {json_decode($data1)},
                     // data: [1, 2, 3, 4, 5],
                     backgroundColor: 'transparent',
                     borderColor: 'rgba(255,255,255)',
                     borderWidth: 1,
                     pointRadius: 0
+                },
+                {
+                    label: 'Data 2 - Arrhythmia',
+                    data: json_encode($data2),
+                    backgroundColor: 'transparent',
+                    borderColor: 'rgba(255,0,0)',
+                    borderWidth: 1,
+                    pointRadius: 0
                 }
-                // {
-                //     label: 'Data 2 - Arrhythmia',
-                //     // data: json_encode($data2),
-                //     data: [1, 2, 3, 4, 5],
-                //     backgroundColor: 'transparent',
-                //     borderColor: 'rgba(255,0,0)',
-                //     borderWidth: 1,
-                //     pointRadius: 0
-                // }
             ]
         },
 
