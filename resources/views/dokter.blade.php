@@ -71,7 +71,7 @@
     </li>
 
 </ul>
-@section('topbar')
+@endsection('topbar')
 
 @section('content')
 <div class="container-fluid">
