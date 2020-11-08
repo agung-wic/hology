@@ -11,9 +11,11 @@ class ChartController extends Controller
         $dataset = \App\Dataset::all();
         $data1 = [];
         $data2 = [];
+        $i = 0;
         foreach ($dataset as $data) {
-            $data1 = $data->data1[$data];
-            $data2 = $data->data2[$data];
+            $data1[$i] = $data->data1;
+            $data2[$i] = $data->data2;
+            $i++;
         }
         dd(json_encode($data1));
 
