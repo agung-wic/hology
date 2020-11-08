@@ -22,36 +22,10 @@
 </hef>
 
 <body id="page-top">
-
   <!-- Page Wrapper -->
   <div id="wrapper">
-
     <!-- Sidebar -->
-    <ul style="background-color: #10866c;background-image:linear-gradient(180deg,#225449 10%,#10866c 100%)" class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
-
-      <!-- Sidebar - Brand -->
-      <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
-        <div class="sidebar-brand-icon rotate-n-15">
-          <i class="fa fa-heartbeat" aria-hidden="true"></i>
-        </div>
-        <div class="sidebar-brand-text mx-3">Alive</div>
-      </a>
-
-      <!-- Divider -->
-      <hr class="sidebar-divider my-0">
-
-      <!-- Nav Item - Dashboard -->
-      <li class="nav-item active">
-        <a class="nav-link" href="/pasien">
-          <i class="fas fa-fw fa-tachometer-alt"></i>
-          <span>Dashboard Pasien</span></a>
-        <a class="nav-link" href="/dokter">
-          <i class="fas fa-fw fa-tachometer-alt"></i>
-          <span>Dashboard Dokter</span></a>
-      </li>
-
-    </ul>
-    <!-- End of Sidebar -->
+    @yield('sidebar')
 
     <!-- Content Wrapper -->
     <div id="content-wrapper" class="d-flex flex-column">
@@ -86,7 +60,6 @@
               </div>
             </li>
 
-
           </ul>
 
         </nav>
@@ -108,7 +81,7 @@
       <footer class="sticky-footer bg-white">
         <div class="container my-auto">
           <div class="copyright text-center my-auto">
-            <span>Copyright &copy; Your Website 2020</span>
+            <span>Copyright &copy; ALIVE 2020</span>
           </div>
         </div>
       </footer>

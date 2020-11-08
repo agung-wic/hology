@@ -1,5 +1,32 @@
 @extends('master.dashboard')
 
+@section('sidebar')
+<ul style="background-color: #10866c;background-image:linear-gradient(180deg,#225449 10%,#10866c 100%)" class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
+  <!-- Sidebar - Brand -->
+  <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
+    <div class="sidebar-brand-icon rotate-n-15">
+      <i class="fa fa-heartbeat" aria-hidden="true"></i>
+    </div>
+    <div class="sidebar-brand-text mx-3">Alive</div>
+  </a>
+
+  <!-- Divider -->
+  <hr class="sidebar-divider my-0">
+
+  <!-- Nav Item - Dashboard -->
+  <li class="nav-item">
+    <a class="nav-link active" href="/pasien">
+      <i class="fas fa-fw fa-tachometer-alt"></i>
+      <span>Dashboard Pasien</span></a>
+    <a class="nav-link" href="/dokter">
+      <i class="fas fa-fw fa-tachometer-alt"></i>
+      <span>Dashboard Dokter</span></a>
+  </li>
+
+</ul>
+<!-- End of Sidebar -->
+@endsection('sidebar')
+
 @section('content')
 <div class="container-fluid">
   <!-- Content Row -->
