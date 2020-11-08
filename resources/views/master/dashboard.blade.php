@@ -42,9 +42,12 @@
 
       <!-- Nav Item - Dashboard -->
       <li class="nav-item active">
-        <a class="nav-link" href="pasien.php">
+        <a class="nav-link" href="/pasien">
           <i class="fas fa-fw fa-tachometer-alt"></i>
-          <span>Dashboard</span></a>
+          <span>Dashboard Pasien</span></a>
+        <a class="nav-link" href="/dokter">
+          <i class="fas fa-fw fa-tachometer-alt"></i>
+          <span>Dashboard Dokter</span></a>
       </li>
 
     </ul>
