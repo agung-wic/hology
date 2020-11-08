@@ -167,9 +167,7 @@
                             label: 'Data 1 - Normal',
                             data: {
                                 {
-                                    {
-                                        json_encode($data1)
-                                    }
+                                    $data1
                                 },
                                 // data: [1, 2, 3, 4, 5],
                                 backgroundColor: 'transparent',
