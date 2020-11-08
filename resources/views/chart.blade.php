@@ -15,6 +15,10 @@
     <hr class="sidebar-divider my-0">
 
     <!-- Nav Item - Dashboard -->
+    <div class="sidebar-heading">
+        Dokter
+    </div>
+
     <li class="nav-item">
         <a class="nav-link" href="/pasien">
             <i class="fas fa-fw fa-tachometer-alt"></i>
