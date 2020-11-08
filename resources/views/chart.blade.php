@@ -157,16 +157,16 @@
 </div>
 
 <script>
-    var label = [];
-    var j = 0;
-    for (let i = 0; i <= 720; i++) {
-        if (i % 360 == 0) {
-            label[i] = j;
-            j++;
-        } else {
-            label[i] = "";
-        }
-    }
+    var label = [1, 2, 3];
+    // var j = 0;
+    // for (let i = 0; i <= 720; i++) {
+    //     if (i % 360 == 0) {
+    //         label[i] = j;
+    //         j++;
+    //     } else {
+    //         label[i] = "";
+    //     }
+    // }
     var ctx = document.getElementById("chart").getContext('2d');
     var myChart = new Chart(ctx, {
         type: 'line',
@@ -174,7 +174,8 @@
             labels: label,
             datasets: [{
                     label: 'Data 1 - Normal',
-                    data: [<?php echo $data1; ?>],
+                    // data: [<?php echo $data1; ?>],
+                    data: [1, 2, 3, 4, 5],
                     backgroundColor: 'transparent',
                     borderColor: 'rgba(255,255,255)',
                     borderWidth: 1,
@@ -182,7 +183,8 @@
                 },
                 {
                     label: 'Data 2 - Arrhythmia',
-                    data: [<?php echo $data2; ?>],
+                    // data: [<?php echo $data2; ?>],
+                    data: [1, 2, 3, 4, 5],
                     backgroundColor: 'transparent',
                     borderColor: 'rgba(255,0,0)',
                     borderWidth: 1,
