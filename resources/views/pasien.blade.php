@@ -23,11 +23,6 @@
       <i class="fas fa-fw fa-tachometer-alt"></i>
       <span>Dashboard Pasien</span></a>
   </li>
-  <li class="nav-item">
-    <a class="nav-link" href="/dokter">
-      <i class="fas fa-fw fa-tachometer-alt"></i>
-      <span>Dashboard Dokter</span></a>
-  </li>
 
 </ul>
 <!-- End of Sidebar -->
