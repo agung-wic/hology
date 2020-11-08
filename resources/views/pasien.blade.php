@@ -39,11 +39,11 @@
         <div class="card border-left-success shadow h-100 py-2">
           <div class="card-body">
             <div class="text-xs font-weight-bold text-primary text-uppercase mb-3">
-              Dr. Bambang Hardoyo
+              Dr. Alive
             </div>
             <h5 class="card-title">Laporan Medical Check Up</h5>
             <p class="card-text" style="margin-bottom:-0.1%">Berikut adalah hasil check up : </p>
-            <p class="card-text" style="margin-bottom:-0.1%">Nama : Ahmad Zakiy Mulyanto</p>
+            <p class="card-text" style="margin-bottom:-0.1%">Nama : Pasien 1</p>
             <p class="card-text" style="margin-bottom:-0.1%">Usia : 21 Tahun</p>
             <p class="card-text" style="margin-bottom:-0.1%">No. KTP : 12345678</p>
             <p class="card-text" style="margin-bottom:1%">No. Surat : 3</p>
@@ -66,11 +66,11 @@
         <div class="card border-left-success shadow h-100 py-2">
           <div class="card-body">
             <div class="text-xs font-weight-bold text-primary text-uppercase mb-3">
-              Dr. Bambang Hardoyo
+              Dr. Alive
             </div>
             <h5 class="card-title">Laporan Medical Check Up</h5>
             <p class="card-text" style="margin-bottom:-0.1%">Berikut adalah hasil check up : </p>
-            <p class="card-text" style="margin-bottom:-0.1%">Nama : Ahmad Zakiy Mulyanto</p>
+            <p class="card-text" style="margin-bottom:-0.1%">Nama : Pasien 1</p>
             <p class="card-text" style="margin-bottom:-0.1%">Usia : 21 Tahun</p>
             <p class="card-text" style="margin-bottom:-0.1%">No. KTP : 12345678</p>
             <p class="card-text" style="margin-bottom:1%">No. Surat : 2</p>
