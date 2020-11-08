@@ -191,7 +191,7 @@
             labels: label,
             datasets: [{
                     label: 'Data 1 - Normal',
-                    data: [0],
+                    data: sinyal1,
                     //data: ["1", "2", "3", "4", "5"],
                     backgroundColor: 'transparent',
                     borderColor: 'rgba(255,255,255)',
@@ -199,7 +199,7 @@
                     pointRadius: 0
                 },
                 {
-                    label: 'Data 2 - Arrhythmia',
+                    label: 'Data Pasien',
                     data: [0],
                     backgroundColor: 'transparent',
                     borderColor: 'rgba(255,0,0)',
