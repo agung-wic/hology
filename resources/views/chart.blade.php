@@ -150,7 +150,7 @@
 <script>
     var label = [];
     var j = 0;
-    var data1_echo = <?php echo $data1; ?>;
+
 
     for (let i = 0; i <= 720; i++) {
         if (i % 360 == 0) {
@@ -167,7 +167,7 @@
             labels: label,
             datasets: [{
                     label: 'Data 1 - Normal',
-                    data: data1_echo,
+                    data: <?php $data1; ?>,
                     // data: [1, 2, 3, 4, 5],
                     backgroundColor: 'transparent',
                     borderColor: 'rgba(255,255,255)',
