@@ -14,10 +14,12 @@
   <hr class="sidebar-divider my-0">
 
   <!-- Nav Item - Dashboard -->
-  <li class="nav-item">
-    <a class="nav-link active" href="/pasien">
+  <li class="nav-item active">
+    <a class="nav-link" href="/pasien">
       <i class="fas fa-fw fa-tachometer-alt"></i>
       <span>Dashboard Pasien</span></a>
+  </li>
+  <li class="nav-item">
     <a class="nav-link" href="/dokter">
       <i class="fas fa-fw fa-tachometer-alt"></i>
       <span>Dashboard Dokter</span></a>

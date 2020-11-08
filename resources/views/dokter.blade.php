@@ -1,7 +1,5 @@
 @extends('master.dashboard')
 
-@extends('master.dashboard')
-
 @section('sidebar')
 <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
     <!-- Sidebar - Brand -->
@@ -20,10 +18,13 @@
         <a class="nav-link" href="/pasien">
             <i class="fas fa-fw fa-tachometer-alt"></i>
             <span>Dashboard Pasien</span></a>
-        <a class="nav-link active" href="/dokter">
+    </li>
+    <li class="nav-item active">
+        <a class="nav-link" href="/dokter">
             <i class="fas fa-fw fa-tachometer-alt"></i>
             <span>Dashboard Dokter</span></a>
     </li>
+
 
 </ul>
 <!-- End of Sidebar -->
