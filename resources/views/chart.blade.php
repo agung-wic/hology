@@ -159,7 +159,9 @@
         }
     }
     var data1 = <?php echo json_encode($data1);?>;
-    var data2 = <?php echo json_encode($data2);?>;_
+    var data2 = <?php echo json_encode($data2);?>;
+    var sinyal1 = data1.map(Number);
+    var sinyal2 = data2.map(Number);
     var ctx = document.getElementById("chart").getContext('2d');
     var myChart = new Chart(ctx, {
         type: 'line',
@@ -167,8 +169,8 @@
             labels: label,
             datasets: [{
                     label: 'Data 1 - Normal',
-                    //data: data1,
-                    data: ["1", "2", "3", "4", "5"],
+                    data: sinyal1,
+                    //data: ["1", "2", "3", "4", "5"],
                     backgroundColor: 'transparent',
                     borderColor: 'rgba(255,255,255)',
                     borderWidth: 1,
@@ -176,7 +178,7 @@
                 },
                 {
                     label: 'Data 2 - Arrhythmia',
-                    data: data2,
+                    data: sinyal2,
                     backgroundColor: 'transparent',
                     borderColor: 'rgba(255,0,0)',
                     borderWidth: 1,
