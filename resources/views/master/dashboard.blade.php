@@ -32,8 +32,7 @@
 
       <!-- Main Content -->
       <div id="content">
-
-
+        @yielad('topbar')
         <!-- Begin Page Content -->
         <div class="container-fluid">
 
