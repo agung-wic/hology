@@ -32,7 +32,7 @@
 
       <!-- Main Content -->
       <div id="content">
-        @yielad('topbar')
+        @yield('topbar')
         <!-- Begin Page Content -->
         <div class="container-fluid">
 
