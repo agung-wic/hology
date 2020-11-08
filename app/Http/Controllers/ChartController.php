@@ -11,7 +11,7 @@ class ChartController extends Controller
         $dataset = \App\Dataset::all();
         $data1 = '';
         $data2 = '';
-        while ($row = mysqli_fetch_array($result)) {
+        while ($row = mysqli_fetch_array($dataset)) {
             $data1 = $data1 . '"' . $row['data1'] . '",';
             $data2 = $data2 . '"' . $row['data2'] . '",';
         }
