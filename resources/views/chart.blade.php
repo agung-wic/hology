@@ -165,9 +165,7 @@
             labels: label,
             datasets: [{
                     label: 'Data 1 - Normal',
-                    data: {
-                        json_encode($data1)
-                    },
+                    data: json_encode($data1),
                     // data: [1, 2, 3, 4, 5],
                     backgroundColor: 'transparent',
                     borderColor: 'rgba(255,255,255)',
@@ -176,9 +174,7 @@
                 },
                 {
                     label: 'Data 2 - Arrhythmia',
-                    data: {
-                        json_encode($data2)
-                    },
+                    data: json_encode($data2),
                     backgroundColor: 'transparent',
                     borderColor: 'rgba(255,0,0)',
                     borderWidth: 1,
