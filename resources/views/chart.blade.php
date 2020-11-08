@@ -157,7 +157,7 @@
 </div>
 
 <script>
-    var label = [1, 2, 3];
+    var label = [1, 2, 3, 4, 5];
     // var j = 0;
     // for (let i = 0; i <= 720; i++) {
     //     if (i % 360 == 0) {
