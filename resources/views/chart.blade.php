@@ -56,7 +56,6 @@
         Umur: 21 Tahun</div>
 
     <div class="container">
-        <h1>ALIVE</h1>
         <canvas id="chart" style="width: 100%; height: 65vh; background: #222; border: 1px solid #555652; margin-top: 10px;"></canvas>
     </div>
 
