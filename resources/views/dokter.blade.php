@@ -92,7 +92,8 @@
 
         <!-- Earnings (Monthly) Card Example -->
         <div class="col-xl-12 col-md-12 mb-4">
-            <div class="card border-left-primary shadow h-100 py-2" href="{{url('/chart')}}">
+            <div class="card border-left-primary shadow h-100 py-2">
+                <a href="{{url('/chart')}}"></a>
                 <div class="card-body">
                     <div class="row no-gutters align-items-center">
                         <div class="col mr-2">
