@@ -16,7 +16,7 @@ class ChartController extends Controller
             $data2 = $data->data2;
         }
         dd($data1);
-        die;
+        die();
         return view('chart', ['dataset' => $dataset], ['data1' => $data1], ['data2' => $data2]);
     }
 }
