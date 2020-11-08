@@ -19,6 +19,8 @@
         Pasien
     </div>
 
+    <hr class="sidebar-divider my-2">
+
     <li class="nav-item">
         <a class="nav-link" href="/pasien">
             <i class="fas fa-fw fa-tachometer-alt"></i>
@@ -30,6 +32,8 @@
     <div class="sidebar-heading">
         Pasien
     </div>
+
+    <hr class="sidebar-divider my-2">
 
     <li class="nav-item">
         <a class="nav-link" href="/dokter">
