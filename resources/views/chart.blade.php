@@ -1,6 +1,7 @@
 @extends('master.dashboard')
 
 <?php
+$mysqli = new mysqli($host, $user, $pass, $db) or die($mysqli->error);
 $data1 = '';
 $data2 = '';
 
