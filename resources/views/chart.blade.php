@@ -182,8 +182,8 @@ $data2 = trim($data2, ",");
             labels: label,
             datasets: [{
                     label: 'Data 1 - Normal',
-
-                    data: [1, 2, 3, 4, 5],
+                    data: [<?php echo $data1; ?>],
+                    // data: [1, 2, 3, 4, 5],
                     backgroundColor: 'transparent',
                     borderColor: 'rgba(255,255,255)',
                     borderWidth: 1,
@@ -191,8 +191,8 @@ $data2 = trim($data2, ",");
                 },
                 {
                     label: 'Data 2 - Arrhythmia',
-
-                    data: [1, 2, 3, 4, 5],
+                    data: [<?php echo $data1; ?>],
+                    // data: [1, 2, 3, 4, 5],
                     backgroundColor: 'transparent',
                     borderColor: 'rgba(255,0,0)',
                     borderWidth: 1,
