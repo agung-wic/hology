@@ -51,7 +51,7 @@
             <p class="card-text" style="margin-bottom:-0.1%">Usia : 21 Tahun</p>
             <p class="card-text" style="margin-bottom:-0.1%">No. KTP : 12345678</p>
             <p class="card-text" style="margin-bottom:1%">No. Surat : 3</p>
-            <a href="#" class="d-none d-sm-inline-block btn btn-sm btn-success shadow-sm">
+            <a href="https://drive.google.com/u/0/uc?id=1PqEKqStW7HvOFfxurS7WykMD5lrb6wHq&export=download" class="d-none d-sm-inline-block btn btn-sm btn-success shadow-sm">
               <i class="fas fa-download fa-sm text-white-50"></i> Download
             </a>
           </div>
