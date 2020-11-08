@@ -25,9 +25,7 @@ Route::get('/welcome', function () {
     return view('welcome');
 });
 
-Route::get('/chart', function () {
-    return view('chart');
-});
+Route::get('/chart', 'ChartController@index');
 
 Auth::routes();
 
