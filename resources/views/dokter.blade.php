@@ -74,9 +74,9 @@
     <div class="row">
 
         <!-- Earnings (Monthly) Card Example -->
-        <a class="col-xl-12 col-md-12 mb-4" href="{{url('/chart')}}" style="text-decoration: none;">
-            <div class=" card border-left-primary shadow h-100 py-2">
-                <div class=" card-body">
+        <div class="col-xl-12 col-md-12 mb-4">
+            <a class="card border-left-primary shadow h-100 py-2" href="{{url('/chart')}}" style="text-decoration: none;">
+                <div class="card-body">
                     <div class="row no-gutters align-items-center">
                         <div class="col mr-2">
                             <div class="text-xl font-weight-bold text-primary text-uppercase mb-1">
@@ -86,8 +86,8 @@
                         </div>
                     </div>
                 </div>
-            </div>
-        </a>
+            </a>
+        </div>
 
         <div class="col-xl-12 col-md-12 mb-4">
             <div class="card border-left-primary shadow h-100 py-2">
