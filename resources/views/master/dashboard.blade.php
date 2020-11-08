@@ -27,14 +27,14 @@
   <div id="wrapper">
 
     <!-- Sidebar -->
-    <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
+    <ul style="background-color: #10866c;background-image:linear-gradient(180deg,#225449 10%,#10866c 100%)" class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
 
       <!-- Sidebar - Brand -->
       <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
         <div class="sidebar-brand-icon rotate-n-15">
-          <i class="fas fa-laugh-wink"></i>
+          <i class="fa fa-heartbeat" aria-hidden="true"></i>
         </div>
-        <div class="sidebar-brand-text mx-3">Passien</div>
+        <div class="sidebar-brand-text mx-3">Alive</div>
       </a>
 
       <!-- Divider -->
@@ -42,19 +42,10 @@
 
       <!-- Nav Item - Dashboard -->
       <li class="nav-item active">
-        <a class="nav-link" href="/pasien">
+        <a class="nav-link" href="index.html">
           <i class="fas fa-fw fa-tachometer-alt"></i>
           <span>Dashboard</span></a>
       </li>
-      <!-- Nav Item - Charts -->
-      <li class="nav-item">
-        <a class="nav-link" href="{{ url('chart') }}">
-          <i class="fas fa-fw fa-chart-area"></i>
-          <span>Laporan</span></a>
-      </li>
-
-      <!-- Divider -->
-      <hr class="sidebar-divider d-none d-md-block">
 
     </ul>
     <!-- End of Sidebar -->
