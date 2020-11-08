@@ -199,7 +199,7 @@
                     pointRadius: 0
                 },
                 {
-                    label: 'Data Pasien',
+                    label: 'Data Pasien 1',
                     data: [0],
                     backgroundColor: 'transparent',
                     borderColor: 'rgba(255,0,0)',
