@@ -11,7 +11,11 @@
   </a>
 
   <!-- Divider -->
-  <hr class="sidebar-divider my-0">
+  <hr class="sidebar-divider my-2">
+
+  <div class="sidebar-heading">
+    Pasien
+  </div>
 
   <!-- Nav Item - Dashboard -->
   <li class="nav-item active">
