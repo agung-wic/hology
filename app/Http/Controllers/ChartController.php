@@ -17,7 +17,6 @@ class ChartController extends Controller
         }
         dd{
             $data1};
-        die;
         return view('chart', ['dataset' => $dataset], ['data1' => $data1], ['data2' => $data2]);
     }
 }
