@@ -29,7 +29,6 @@
       </div>
     </div>
   </div>
-
   <div class="row">
     <!-- Earnings (Monthly) Card Example -->
     <div class="col-12 mb-4">
