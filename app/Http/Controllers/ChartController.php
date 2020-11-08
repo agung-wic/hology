@@ -15,8 +15,7 @@ class ChartController extends Controller
             $data1 = $data->data1;
             $data2 = $data->data2;
         }
-        var_dump($data1);
-        die();
+
         return view('chart', ['dataset' => $dataset], ['data1' => $data1], ['data2' => $data2]);
     }
 }
